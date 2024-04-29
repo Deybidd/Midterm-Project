@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  font-family: Arial Rounded MT;
+}
+
+body {
+  background-color: rgba(230, 230, 221, 255);
+}
+
+/* ! NAVIGATION BAR ! */
+nav {
+  background: black;
+  height: 103px;
+  width: 100%;
+}
+
+nav img {
+  width: 9vh;
+  margin: 8px;
+  border-radius: 10px;
+}
+
+label.logo {
+  color: white;
+  font-size: 55px;
+  line-height: 100px;
+  vertical-align: top;
+}
+
+nav ul {
+  float: right;
+  margin-right: 20px;
+}
+
+nav ul li {
+  font-size: 25px;
+  display: inline-block;
+  line-height: 100px;
+  margin: 0 40px;
+  padding: 0 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-transform: uppercase;
+  border-radius: 0.5vh;
+}
+
+nav ul li a:hover {
+  background-color: rgba(243, 243, 243, 0.5);
+  transition: ease-in;
+  transition-duration: 150ms;
+  color: whitesmoke;
+  cursor: pointer;
+  padding: 7px;
+  margin: -7px;
+}
+
+/* ! BEAUTIFIER ! */
+.line hr {
+  margin: 20px 25px 20px;
+  padding: 2px;
+  background-color: black;
+}
+
+.triple-dot hr {
+  border-top: 10px dotted black;
+  width: 3%;
+  margin: auto;
+}
+
+/* ! MAIN CONTENT ! */
+
+.header,
+.sub-header,
+.main-content {
+  text-align: center;
+}
+
+.header {
+  font-size: 30px;
+}
+
+.sub-header {
+  font-size: 25px;
+  margin: 15px 0 40px;
+}
+
+.main-content {
+  font-size: 25px;
+  margin: 40px;
+}

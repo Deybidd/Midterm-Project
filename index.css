@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  font-family: Arial Rounded MT;
+}
+
+body {
+  background-image: url(background-2.png);
+  background-attachment: fixed;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* ! NAVIGATION BAR ! */
+nav {
+  background: black;
+  height: 103px;
+  width: 100%;
+}
+
+nav img {
+  width: 9vh;
+  margin: 8px;
+  border-radius: 10px;
+}
+
+label.logo {
+  color: white;
+  font-size: 55px;
+  line-height: 100px;
+  vertical-align: top;
+}
+
+nav ul {
+  float: right;
+  margin-right: 20px;
+}
+
+nav ul li {
+  font-size: 25px;
+  display: inline-block;
+  line-height: 100px;
+  margin: 0 40px;
+  padding: 0 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-transform: uppercase;
+  border-radius: 0.5vh;
+}
+
+nav ul li a:hover {
+  background-color: rgba(243, 243, 243, 0.5);
+  transition: ease-in;
+  transition-duration: 150ms;
+  color: whitesmoke;
+  cursor: pointer;
+  padding: 7px;
+  margin: -7px;
+}
+
+/* ! MAIN CONTENT ! */
+h1 {
+  font-size: 90px;
+  position: absolute;
+  right: 5%;
+  top: 45%;
+}
+
+h2 {
+  font-size: 50px;
+  position: absolute;
+  top: 57%;
+  right: 5%;
+}
+
+h3 {
+  font-size: 30px;
+  position: absolute;
+  top: 68%;
+  right: 5%;
+}
+
+.Others {
+  float: right;
+  margin-top: 565px;
+  margin-right: 67px;
+}
+
+.Others .Projects li {
+  font-size: 25px;
+  display: inline-block;
+  line-height: 100px;
+  margin-right: 10px;
+  padding: 0 15px;
+}
+
+.Others .Projects li a {
+  color: black;
+  text-transform: uppercase;
+  border-radius: 0.5vh;
+}
+
+.Others .Projects li a:hover {
+  background-color: black;
+  transition: ease-in;
+  transition-duration: 150ms;
+  color: rgba(230, 230, 221, 1);
+  cursor: pointer;
+  padding: 7px;
+  margin: -7px;
+}

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Login Page</title>
+    <link rel="stylesheet" href="LoginStyle.css" />
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="icon" type="image/png" href="../Logo.png" sizes="32x32" />
+  </head>
+
+  <body>
+    <nav>
+      <img src="../Logo.png">
+      <label class="logo">DhI.</label>
+      <ul>
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="#">Login</a></li>
+        <li><a href="../About Page/About.html">About</a></li>
+      </ul>
+    </nav>
+
+    <center>
+    <div class="wrapper">
+      <h1>Welcome back!</h1>
+      <form>
+
+        <img src="../Logo.png">
+
+        <div class="input">
+          <input type="text" placeholder="Username/Email" required pattern = "^([a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3})|(\d{3}-\d{3}-\d{4})$"/>
+        </div>
+
+        <div class="input">
+          <input type="password" placeholder="Password" required />
+        </div>
+
+        <div class="remember-forgot">
+          <label><input type="checkbox" />Remember Me</label>
+          <a href="#">Forgot Password?</a>
+        </div>
+
+        <button type="submit" class="button">Login</button>
+
+        <div class="register-link">
+          <p>Don't have an account?<a href="../Sign in Page/SignUp.html"> Sign up/Register</a></p>
+        </div>
+
+        <div class="Others">
+          <p>Continue with: </p>
+        </div>
+
+        <div class="Icons">
+          <div class="google">
+            <center>
+            <a href="https://www.google.com"><img src="../google.png"></a>
+            <center>
+          </div>
+
+          <div class="facebook">
+            <center>
+            <a href="https://www.facebook.com"><img src="../facebook.png"></a>
+            <center>
+          </div>
+
+          <div class="twitter">
+            <center>
+            <a href="https://twitter.com/?lang=en"><img src="../twitter.png"></a>
+            <center>
+          </div>
+        </div>
+      </form>
+    </div>
+    </center>
+  </body>
+</html>
